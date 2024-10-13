@@ -93,5 +93,14 @@ public class Rubrica  {
 		}
 	};
 	
+	  // Metodo per impostare la lista di contatti
+    public void setContatti(List<Contatto> rubrica) {
+        this.rubrica = rubrica;
+    }
+
+    // Metodo per ottenere la lista di contatti
+    public List<Contatto> getContatti() {
+        return this.rubrica;
+    }
 	
 }
